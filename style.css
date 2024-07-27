@@ -7,3 +7,65 @@ body {
     height: 100vh;
     margin: 0;
 }
+
+h1 {
+    margin: 0;
+}
+
+.dark {
+    color: #2B283A;
+}
+
+.green {
+    color: #10B981;
+}
+
+.tagline {
+    color: #6B7280;
+    font-size: larger;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #10B981;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 9px 17px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(160, 84%, 29%);
+    color: white;
+    transition: 0.25s ease-in-out;
+}
+
+button:active {
+    background-color: hsl(160, 84%, 49%);
+    color: white;
+    transition: 0.25s ease-in-out;
+}
+
+hr {
+    border: 1px solid #D5D4D8;
+    margin-bottom: 30px;
+}
+
+.fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#field1, #field2 {
+    background-color: #273549;
+    color: #5DEF92;
+    border-radius: 5px;
+}
+
+p:not(.tagline) {
+    margin: 4px 15px;
+    font-size: 1rem;
+}
